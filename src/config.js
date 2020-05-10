@@ -32,7 +32,7 @@ const sortSearchByDistance = false;
 //
 // In a way, 'processAlias' defines which transaction process (or processes)
 // this particular web application is able to handle.
-const bookingProcessAlias = 'preauth-nightly-booking/release-1';
+const bookingProcessAlias = 'preauth-daily-booking/release-1';
 
 // The transaction line item code for the main unit type in bookings.
 //
@@ -77,25 +77,25 @@ const sentryDsn = process.env.REACT_APP_SENTRY_DSN;
 const usingSSL = process.env.REACT_APP_SHARETRIBE_USING_SSL === 'true';
 
 // Address information is used in SEO schema for Organization (http://schema.org/PostalAddress)
-const addressCountry = 'FI';
-const addressRegion = 'Helsinki';
-const postalCode = '00100';
-const streetAddress = 'Bulevardi 14';
+const addressCountry = 'USA';
+const addressRegion = 'Phoenix';
+const postalCode = '85005';
+const streetAddress = 'Camelback';
 
 // Canonical root url is needed in social media sharing and SEO optimization purposes.
 const canonicalRootURL = process.env.REACT_APP_CANONICAL_ROOT_URL;
 
 // Site title is needed in meta tags (bots and social media sharing reads those)
-const siteTitle = 'Saunatime';
+const siteTitle = 'MotorMonger';
 
 // Twitter handle is needed in meta tags (twitter:site). Start it with '@' character
-const siteTwitterHandle = '@sharetribe';
+const siteTwitterHandle = '@azdorner';
 
 // Instagram page is used in SEO schema (http://schema.org/Organization)
 const siteInstagramPage = null;
 
 // Facebook page is used in SEO schema (http://schema.org/Organization)
-const siteFacebookPage = 'https://www.facebook.com/Sharetribe/';
+const siteFacebookPage = 'https://www.facebook.com/dorner1/';
 
 // Facebook counts shares with app or page associated by this id
 // Currently it is unset, but you can read more about fb:app_id from
@@ -166,7 +166,7 @@ const maps = {
     // The easiest place is /public/static/icons/ folder, but then the
     // marker image is not available while developing through
     // localhost.
-    url: encodeURI(`${canonicalRootURL}/static/icons/map-marker-32x32.png`),
+    url: encodeURI(`${canonicalRootURL}/static/icons/icon.jpg`),
 
     // Dimensions of the marker image.
     width: 32,

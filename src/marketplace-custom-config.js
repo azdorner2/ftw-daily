@@ -4,20 +4,20 @@
 
 export const amenities = [
   {
-    key: 'towels',
-    label: 'Towels',
+    key: 'helmets',
+    label: 'Helmets',
   },
   {
-    key: 'bathroom',
-    label: 'Bathroom',
+    key: 'fuel',
+    label: 'Fuel',
   },
   {
-    key: 'swimming_pool',
-    label: 'Swimming pool',
+    key: 'life_vests',
+    label: 'Life Vests',
   },
   {
-    key: 'own_drinks',
-    label: 'Own drinks allowed',
+    key: 'water_toys',
+    label: 'Water Toys',
   },
   {
     key: 'jacuzzi',
@@ -38,9 +38,9 @@ export const amenities = [
 ];
 
 export const categories = [
-  { key: 'smoke', label: 'Smoke' },
-  { key: 'electric', label: 'Electric' },
-  { key: 'wood', label: 'Wood' },
+  { key: 'offroad', label: 'Off-Road' },
+  { key: 'electric', label: 'Camping' },
+  { key: 'water', label: 'Water' },
   { key: 'other', label: 'Other' },
 ];
 
@@ -48,8 +48,8 @@ export const categories = [
 // Note: unlike most prices this is not handled in subunits
 export const priceFilterConfig = {
   min: 0,
-  max: 1000,
-  step: 5,
+  max: 2000,
+  step: 10,
 };
 
 // Activate booking dates filter on search page
